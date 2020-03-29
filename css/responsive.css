@@ -1,0 +1,2113 @@
+@media only screen and (max-width: 767px)
+{
+	/*----------------------poster---------------*/
+	#poster .container-fluid
+	{
+		padding: 3px!important;
+		align-items: center;
+	}
+
+	.container-fluid .name
+	{
+		margin-top: 5px;
+	}
+
+	.container-fluid .name .heading
+	{
+		font-size: 40px!important;
+	}
+
+	.container-fluid .name .para
+	{
+		font-size: 15px;
+	}
+
+	.container-fluid .manager
+	{
+		display: none;
+	}
+
+	/*---------------navbar--------------------*/
+	.navbar .navbar-brand
+	{
+		margin-left: 5px;
+	}
+
+	.navbar-nav
+	{
+		margin-left: 0;
+		text-align: center;
+	}
+
+	/*--------------slider---------------*/
+	.carousel-inner .carousel-item img
+	{
+		width: 100%;
+		height: 210px;
+	}
+
+	.carousel-caption h3
+	{
+		font-size: 10px;
+		margin: 5px 0px;
+		width: 100%;
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next
+	{
+		margin: 90px 0;
+	}
+
+	.carousel-indicators li
+	{
+		height: 10px!important;
+		width: 10px!important;
+	}
+
+	/*---------------------about----------------*/
+	.about
+	{
+		padding: 15px 5px;
+	}
+
+	.about-heading .heading
+	{
+		font-size: 29px;
+		margin-top: 10px;
+	}
+
+	.about-heading .heading::after
+	{
+		margin: 8px auto;
+	}
+
+	.about-heading .para
+	{
+		font-size: 15px;
+		text-align: justify;
+		padding: 0px 10px;
+		margin-top: 15px;
+	}
+
+	.read-more
+	{
+		margin-top: 25px;
+		margin-bottom: 30px!important;
+	}
+
+	.read-more a
+	{
+		font-size: 17px;
+		padding: 8px 25px;
+	}
+
+	.about .about-card
+	{
+		margin: 20px 15px;
+	}
+
+	.about .about-card img
+	{
+		height: 250px;
+	}
+
+	/*--------------feature------------*/
+	#feature .container-fluid
+	{
+		padding: 0 20px;
+		margin: 30px 0px;
+	}
+
+	.feature h4
+	{
+		font-weight: bolder;
+	}
+
+	.feature1 li,
+	.feature2 li
+	{
+		font-size: 15px;
+		margin-left: 20px;
+	}
+
+	/*--------------------services--------------*/
+	.service
+	{
+		padding: 70px 0;
+	}
+
+	.service h1
+	{
+		font-size: 31px;
+	}
+
+	.service h2
+	{
+		font-size: 18px;
+		padding: 0 10px;
+	}
+
+	.service-area .services-area
+	{
+		padding: 10px 5px;
+	}
+
+	.services-area .heading
+	{
+		margin: 0 20px;
+		padding: 30px 30px;
+		transform: translateY(-70px);
+	}
+
+	.services-area .heading h3
+	{
+		font-size: 25px;
+	}
+
+	.services-area .heading h3::after
+	{
+		margin: 5px 10px;
+	}
+
+	.services-area .heading p
+	{
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+	.heading a
+	{
+		padding: 5px 20px!important;
+		font-size: 17px;
+	}
+
+	.services-area .service-detail
+	{
+		margin-left: 10px;
+		margin-top: -30px!important;
+	}
+
+	.services-area .service-detail li
+	{
+		font-size: 17px;
+		margin: 5px 7px;
+		padding: 5px 10px;
+	}
+
+	/*-------------------testimonial-----------------*/
+	.slideshow-container
+	{
+		padding: 30px 10px!important;
+	}
+
+	.slideshow-container h1
+	{
+		padding: 20px 5px;
+		font-size: 30px;
+		margin: 0px!important;
+	}
+
+	.slideshow-container .mySlides
+	{
+		padding: 0px 30px!important;
+		text-align: justify;
+		font-size: 13px;
+	}
+
+	.prev, .next
+	{
+		padding: 5px;
+	}
+
+	.dot
+	{
+		transform: translateY(-40px);
+		height: 11px;
+		width: 11px;
+	}
+
+	/*---------------------contactus------------------*/
+	.contact
+	{
+		padding: 50px 0;
+	}
+
+	.contact h1
+	{
+		padding: 20px 20px;
+		font-size: 24px;
+		text-align: justify;
+	}
+
+	.contactus
+	{
+		padding: 20px;
+	}
+
+	.contactus .heading
+	{
+		padding: 25px 20px;
+		margin: 10px 5px;
+		transform: translateY(-80px);
+	}
+
+	.contactus .heading h1
+	{
+		font-size: 27px;
+	}
+
+	.contactus .heading h1::after
+	{
+		margin: 5px 0px;
+	}
+
+	.contactus .heading h2
+	{
+		font-size: 21px;
+		margin-top: 15px;
+	}
+
+	.contactus .connect
+	{
+		margin-top: 15px;
+	}
+
+	.contactus .connect p
+	{
+		font-size: 13px;
+	}
+
+	.contactus .connect i
+	{
+		font-size: 14px;
+		padding: 0 4px;
+	}
+
+	/*-----------------------contact-form----------------*/
+	.form
+	{
+		padding: 30px 10px;
+		margin: -50px 0px;
+	}
+
+	.contact-title h2
+	{
+		font-size: 25px;
+	}
+
+	.contact-form
+	{
+		margin-top: 20px;
+	}
+
+	.contact-form .form-control
+	{
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+	.contact-form form .submit
+	{
+		font-size: 17px;
+		height: 40px;
+		margin-top: 15px;
+	}
+
+	/*---------------footer------------*/
+	.footer
+	{
+		padding: 20px;
+		margin-top: 50px;
+	}
+
+	.footer .about-link h1,
+	.footer .services-link h1,
+	.footer .quick-link h1,
+	.footer .social-link h1
+	{
+		font-size: 25px;
+	}
+
+	/*----------------login-------------*/
+	.box
+	{
+	  	width: 300px;
+	  	margin: 1%;	
+	}
+
+	/*----------------our team--------------*/
+	.team
+	{
+		padding: 20px 15px;
+	}
+
+	.team .image
+	{
+		margin-top: -50px;
+		margin-right: 0px;
+	}
+
+	.team .image img
+	{
+		width: 100%;
+		height: 250px;
+	}
+
+	.team .image h1
+	{
+		font-size: 25px;
+	}
+
+	.team .image h4
+	{
+		font-size: 16px;
+	}
+
+	.team .image p
+	{
+		font-size: 16px;
+	}
+
+	.teamabout
+	{
+		margin: 10px 10px; 
+	}
+
+	.teamabout h1
+	{
+		font-size: 28px;
+	}
+
+	.teamabout p
+	{
+		font-size: 16px;
+		margin-top: 15px;
+	}
+
+	.ourteamdetail
+	{
+		padding: 30px 0;
+	}
+
+	th, td {
+	  padding: 15px 15px;
+	}
+
+	/*-----------aboutus---------------*/
+	.aboutus
+	{
+		padding: 20px 10px;
+	}
+
+	.aboutus img
+	{
+		width: 100%;
+		height: 250px;
+	}
+
+	.aboutus h1
+	{
+		font-size: 24px;
+		margin-top: 20px;
+	}
+
+	.aboutus h1::after
+	{
+		width: 200px;
+		margin: 15px auto 30px;
+	}
+
+	.aboutus p
+	{
+		font-size: 14px;
+		padding: 5px 5px;
+	}
+
+	.aboutus h2
+	{
+		font-size: 22px;
+		padding: 10px 13px;
+	}
+
+	.aboutus ul
+	{
+		padding: 0 15px;
+	}
+
+	.aboutus ul li
+	{
+		font-size: 14px;
+	}
+
+	/*---------------------------service1------------------------*/
+	.service1
+	{
+		padding: 10px 15px;
+	}
+
+	.service1 h1
+	{
+		font-size: 26px;
+		margin-top: 30px;
+	}
+
+	.service1 h1::after
+	{
+		width: 200px;
+		margin: 10px auto 10px;
+	}
+
+	.service1 .image
+	{
+		margin: 20px 5px;
+	}
+
+	.service1 .image img
+	{
+		width: 100%;
+		height: 250px;
+	}
+
+	.service1 .para
+	{
+		font-size: 15px;
+		margin: 20px 10px;
+	}
+
+
+}
+
+/*-------------------------------768--------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and  (max-width: 991px)
+{
+	
+	#poster .container-fluid
+	{
+		padding: 5px!important;
+	}
+
+	.container-fluid img
+	{
+		height: 130px;
+		width: 130px;
+	}	
+	
+	.container-fluid .name
+	{
+		line-height: 18px;
+	}
+
+	.container-fluid .name .heading
+	{
+		font-size: 30px!important;
+	}
+
+	.container-fluid .name .para
+	{
+		font-size: 13px;
+	}
+
+	.container-fluid .manager
+	{
+		line-height: 18px;
+	}
+
+
+	.container-fluid .manager .heading
+	{
+		font-size: 24px;
+	}
+
+	.container-fluid .manager .h4
+	{
+		font-size: 15px;
+	}
+
+	.container-fluid .manager .para
+	{
+		font-size: 14px;
+	 	padding: 0px 10px;
+	}
+
+
+	/*---------------navbar--------------------*/
+	.navbar .navbar-brand
+	{
+		margin-left: 5px;
+	}
+
+	.navbar-nav
+	{
+		margin-left: 0;
+		text-align: center;
+	}
+
+	/*--------------slider---------------*/
+	.carousel-inner .carousel-item img
+	{
+		width: 100%;
+		height: 230px;
+	}
+
+	.carousel-caption h3
+	{
+		font-size: 17px;
+		margin: 5px 0px;
+		width: 100%;
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next
+	{
+		margin: 90px 0;
+	}
+
+	.carousel-indicators li
+	{
+		height: 10px!important;
+		width: 10px!important;
+	}
+
+	/*---------------------about----------------*/
+	.about
+	{
+		padding: 15px 5px;
+	}
+
+	.about-heading .heading
+	{
+		font-size: 29px;
+		margin-top: 10px;
+	}
+
+	.about-heading .heading::after
+	{
+		margin: 8px auto;
+	}
+
+	.about-heading .para
+	{
+		font-size: 15px;
+		text-align: justify;
+		padding: 0px 10px;
+		margin-top: 15px;
+	}
+
+	.read-more
+	{
+		margin-top: 25px;
+		margin-bottom: 30px!important;
+	}
+
+	.read-more a
+	{
+		font-size: 17px;
+		padding: 8px 25px;
+	}
+
+	.about .about-card
+	{
+		margin: 20px 5px;
+	}
+
+	.about .about-card img
+	{
+		height: 230px;
+	}
+
+	.about-card h4
+	{
+		padding: 20px 0;
+		padding-left: 10px;
+		font-size: 13px;
+	}
+
+	/*--------------feature------------*/
+	#feature .container-fluid
+	{
+		padding: 0 20px;
+		margin: 30px 0px;
+	}
+
+	.feature h4
+	{
+		font-weight: bolder;
+	}
+
+	.feature1 li,
+	.feature2 li
+	{
+		font-size: 15px;
+		margin-left: 20px;
+	}
+
+	/*--------------------services--------------*/
+	.service
+	{
+		padding: 70px 0;
+	}
+
+	.service h1
+	{
+		font-size: 31px;
+	}
+
+	.service h2
+	{
+		font-size: 18px;
+		padding: 0 10px;
+	}
+
+	.service-area .services-area
+	{
+		padding: 10px 30px;
+	}
+
+	.services-area .heading
+	{
+		margin: 0 20px;
+		padding: 30px 30px;
+		transform: translateY(-70px);
+	}
+
+	.services-area .heading h3
+	{
+		font-size: 25px;
+	}
+
+	.services-area .heading h3::after
+	{
+		margin: 5px 10px;
+	}
+
+	.services-area .heading p
+	{
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+	.heading a
+	{
+		padding: 5px 20px!important;
+		font-size: 17px;
+	}
+
+	.services-area .service-detail
+	{
+		margin-left: 10px;
+		margin-top: 30px!important;
+	}
+
+	.services-area .service-detail li
+	{
+		font-size: 17px;
+		margin: 5px 7px;
+		padding: 5px 10px;
+	}
+
+	/*-------------------testimonial-----------------*/
+	.slideshow-container
+	{
+		padding: 30px 10px;
+	}
+
+	.slideshow-container a
+	{
+		padding: 0px 8px;
+	}
+
+	.slideshow-container h1
+	{
+		padding: 20px 5px;
+		font-size: 30px;
+		margin: 0px!important;
+	}
+
+	.slideshow-container .mySlides
+	{
+		padding: 0px 30px!important;
+		text-align: justify;
+		font-size: 13px;
+	}
+
+	.prev, .next
+	{
+		padding: 5px;
+	}
+
+	.dot
+	{
+		transform: translateY(-40px);
+		height: 11px;
+		width: 11px;
+	}
+
+	/*---------------------contactus------------------*/
+	.contact
+	{
+		padding: 50px 0;
+	}
+
+	.contact h1
+	{
+		padding: 20px 20px;
+		font-size: 24px;
+		text-align: justify;
+	}
+
+	.contactus
+	{
+		padding: 20px;
+	}
+
+	.contactus .heading
+	{
+		padding: 25px 20px;
+		margin: 10px 5px;
+		transform: translateY(-80px);
+	}
+
+	.contactus .heading h1
+	{
+		font-size: 27px;
+	}
+
+	.contactus .heading h1::after
+	{
+		margin: 5px 0px;
+	}
+
+	.contactus .heading h2
+	{
+		font-size: 21px;
+		margin-top: 15px;
+	}
+
+	.contactus .connect
+	{
+		margin-top: 15px;
+	}
+
+	.contactus .connect p
+	{
+		font-size: 13px;
+	}
+
+	.contactus .connect i
+	{
+		font-size: 14px;
+		padding: 0 4px;
+	}
+
+	/*-----------------------contact-form----------------*/
+	.form
+	{
+		padding: 30px 10px;
+		margin: 50px 0px;
+	}
+
+	.contact-title h2
+	{
+		font-size: 25px;
+	}
+
+	.contact-form
+	{
+		margin-top: 20px;
+	}
+
+	.contact-form .form-control
+	{
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+	.contact-form form .submit
+	{
+		font-size: 17px;
+		height: 40px;
+		margin-top: 15px;
+	}
+
+	/*---------------footer------------*/
+	.footer
+	{
+		padding: 10px;
+	}
+
+	.footer .about-link,
+	.footer .services-link,
+	.footer .quick-link,
+	.footer .social-link
+	{
+		padding: 5px 1px!important;
+	}
+
+	.footer .about-link h1,
+	.footer .services-link h1,
+	.footer .quick-link h1,
+	.footer .social-link h1
+	{
+		font-size: 23px;
+	}
+
+	.footer .about-link a,
+	.footer .services-link a,
+	.footer .quick-link a
+	{
+		font-size: 11px;
+	}
+
+	.footer .about-link a::after,
+	.footer .services-link a::after,
+	.footer .quick-link a::after
+	{
+		height: 2px;
+	}
+
+	.footer .social-icons a
+	{
+	  	width:30px;
+	  	height:30px;
+	  	line-height:30px;
+	  	margin-left:4px;
+	  	font-size:14px;
+	}
+
+	/*----------------login-------------*/
+	.box
+	{
+	  	width: 360px;
+	  	padding: 50px;
+	  	margin: 10px 200px!important;
+	}
+
+	/*----------------our team--------------*/
+	.team
+	{
+		padding: 20px 15px;
+	}
+
+	.team .image
+	{
+		margin-right: 0px;
+		margin-top: 50px;
+	}
+
+	.team .image img
+	{
+		width: 100%;
+		height: 350px;
+	}
+
+	.team .image h1
+	{
+		font-size: 25px;
+	}
+
+	.team .image h4
+	{
+		font-size: 16px;
+	}
+
+	.team .image p
+	{
+		font-size: 16px;
+	}
+
+	.teamabout
+	{
+		margin: 10px 10px; 
+	}
+
+	.teamabout h1
+	{
+		font-size: 25px;
+		margin-top: 50px;
+	}
+
+	.teamabout p
+	{
+		font-size: 16px;
+		margin-top: 15px;
+	}
+
+	/*-----------aboutus---------------*/
+	.aboutus
+	{
+		padding: 20px 10px;
+	}
+
+	.aboutus img
+	{
+		width: 100%;
+		height: 350px;
+	}
+
+	.aboutus h1
+	{
+		font-size: 24px;
+		margin-top: 20px;
+	}
+
+	.aboutus h1::after
+	{
+		width: 200px;
+		margin: 15px auto 30px;
+	}
+
+	.aboutus p
+	{
+		font-size: 14px;
+		padding: 5px 5px;
+	}
+
+	.aboutus h2
+	{
+		font-size: 22px;
+		padding: 10px 13px;
+	}
+
+	.aboutus ul
+	{
+		padding: 0 15px;
+	}
+
+	.aboutus ul li
+	{
+		font-size: 14px;
+	}
+
+	/*---------------------------service1------------------------*/
+	.service1
+	{
+		padding: 10px 15px;
+	}
+
+	.service1 h1
+	{
+		font-size: 26px;
+		margin-top: 30px;
+	}
+
+	.service1 h1::after
+	{
+		width: 200px;
+		margin: 10px auto 10px;
+	}
+
+	.service1 .image
+	{
+		margin: 20px 5px;
+	}
+
+	.service1 .image img
+	{
+		width: 100%;
+		height: 250px;
+	}
+
+	.service1 .para
+	{
+		font-size: 15px;
+		margin: 20px 10px;
+	}
+
+
+}
+
+
+/*----------------------------------------992---------------------------*/
+@media only screen and (min-width: 992px) and  (max-width: 1199px)
+{
+	
+	#poster .container-fluid
+	{
+		padding: 5px!important;
+	}
+
+	.container-fluid img
+	{
+		height: 135px;
+		width: 135px;
+	}	
+	
+	.container-fluid .name
+	{
+		line-height: 20px;
+	}
+
+	.container-fluid .name .heading
+	{
+		font-size: 2.3rem!important;
+	}
+
+	.container-fluid .name .para
+	{
+		font-size: 13px;
+	}
+
+	.container-fluid .manager
+	{
+		line-height: 20px;
+	}
+
+
+	.container-fluid .manager .heading
+	{
+		font-size: 24px;
+	}
+
+	.container-fluid .manager .h4
+	{
+		font-size: 15px;
+	}
+
+	.container-fluid .manager .para
+	{
+		font-size: 14px;
+	 	padding: 0px 10px;
+	}
+
+
+	/*---------------navbar--------------------*/
+	.navbar .navbar-brand
+	{
+		margin-left: 5px;
+	}
+
+	.navbar-nav
+	{
+		margin-left: 118px;
+		text-align: center;
+	}
+
+	.navbar-nav .nav-item .nav-link
+	{
+		font-size: 15px;
+		padding: 5px 23px!important;
+
+	}
+
+	/*--------------slider---------------*/
+	.carousel-inner .carousel-item img
+	{
+		width: 100%;
+		height: 350px;
+	}
+
+	.carousel-caption h3
+	{
+		font-size: 19px;
+		margin: 5px 0px;
+		width: 100%;
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next
+	{
+		margin: 150px 0;
+	}
+
+	.carousel-indicators li
+	{
+		height: 17px!important;
+		width: 17px!important;
+	}
+
+	/*---------------------about----------------*/
+	.about
+	{
+		padding: 35px 45px;
+	}
+
+	.about-heading .heading
+	{
+		font-size: 29px;
+		margin-top: 10px;
+	}
+
+	.about-heading .heading::after
+	{
+		margin: 8px auto;
+	}
+
+	.about-heading .para
+	{
+		font-size: 15px;
+		text-align: justify;
+		padding: 0px 10px;
+		margin-top: 15px;
+	}
+
+	.read-more
+	{
+		margin-top: 25px;
+		margin-bottom: 30px!important;
+	}
+
+	.read-more a
+	{
+		font-size: 17px;
+		padding: 8px 25px;
+	}
+
+	.about .about-card
+	{
+		margin: 20px 5px;
+	}
+
+	.about .about-card img
+	{
+		height: 230px;
+	}
+
+	.about-card h4
+	{
+		padding: 20px 0;
+		padding-left: 10px;
+		font-size: 13px;
+	}
+
+	/*--------------feature------------*/
+	#feature .container-fluid
+	{
+		padding: 0 50px;
+		margin: 80px 0px;
+	}
+
+	.feature h4
+	{
+		font-weight: bolder;
+	}
+
+	.feature1 li,
+	.feature2 li
+	{
+		font-size: 16px;
+		margin-left: 20px;
+	}
+
+	/*--------------------services--------------*/
+	.service
+	{
+		padding: 100px 0;
+	}
+
+	.service h1
+	{
+		font-size: 3rem;
+	}
+
+	.service h2
+	{
+		font-size: 22px;
+		padding: 0 10px;
+	}
+
+	.service-area .services-area
+	{
+		padding: 10px 105px;
+	}
+
+	.services-area .heading
+	{
+		margin: 0 20px;
+		padding: 30px 30px;
+		transform: translateY(-70px);
+	}
+
+	.services-area .heading h3
+	{
+		font-size: 25px;
+	}
+
+	.services-area .heading h3::after
+	{
+		margin: 5px 10px;
+	}
+
+	.services-area .heading p
+	{
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+	.heading a
+	{
+		padding: 5px 20px!important;
+		font-size: 17px;
+	}
+
+	.services-area .service-detail
+	{
+		margin-left: 10px;
+		margin-top: 30px!important;
+	}
+
+	.services-area .service-detail li
+	{
+		font-size: 17px;
+		margin: 5px 7px;
+		padding: 5px 10px;
+	}
+
+	/*-------------------testimonial-----------------*/
+	.slideshow-container
+	{
+		padding: 30px 10px;
+	}
+
+	.slideshow-container a
+	{
+		padding: 0px 8px;
+	}
+
+	.slideshow-container h1
+	{
+		padding: 20px 5px;
+		font-size: 30px;
+		margin: 0px!important;
+	}
+
+	.slideshow-container .mySlides
+	{
+		padding: 0px 30px!important;
+		text-align: justify;
+		font-size: 13px;
+	}
+
+	.prev, .next
+	{
+		padding: 5px;
+	}
+
+	.dot
+	{
+		transform: translateY(-40px);
+		height: 11px;
+		width: 11px;
+	}
+
+	/*---------------------contactus------------------*/
+	.contact
+	{
+		padding: 100px 30px;
+	}
+
+	.contact h1
+	{
+		padding: 20px 20px;
+		font-size: 29px;
+		text-align: justify;
+	}
+
+	.contactus
+	{
+		padding: 20px 120px;
+	}
+
+	.contactus .heading
+	{
+		padding: 25px 20px;
+		margin: 10px 5px;
+		transform: translateY(-80px);
+	}
+
+	.contactus .heading h1
+	{
+		font-size: 27px;
+	}
+
+	.contactus .heading h1::after
+	{
+		margin: 5px 0px;
+	}
+
+	.contactus .heading h2
+	{
+		font-size: 21px;
+		margin-top: 15px;
+	}
+
+	.contactus .connect
+	{
+		margin-top: 15px;
+	}
+
+	.contactus .connect p
+	{
+		font-size: 13px;
+	}
+
+	.contactus .connect i
+	{
+		font-size: 14px;
+		padding: 0 4px;
+	}
+
+	/*-----------------------contact-form----------------*/
+	.form
+	{
+		padding: 30px 10px;
+		margin: 50px 0px;
+	}
+
+	.contact-title h2
+	{
+		font-size: 25px;
+	}
+
+	.contact-form
+	{
+		margin-top: 20px;
+	}
+
+	.contact-form .form-control
+	{
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+	.contact-form form .submit
+	{
+		font-size: 17px;
+		height: 40px;
+		margin-top: 15px;
+	}
+
+	/*---------------footer------------*/
+	.footer
+	{
+		padding: 35px;
+	}
+
+	.footer .about-link,
+	.footer .services-link,
+	.footer .quick-link,
+	.footer .social-link
+	{
+		padding: 5px 1px!important;
+	}
+
+	.footer .about-link h1,
+	.footer .services-link h1,
+	.footer .quick-link h1,
+	.footer .social-link h1
+	{
+		font-size: 23px;
+	}
+
+	.footer .about-link a,
+	.footer .services-link a,
+	.footer .quick-link a
+	{
+		font-size: 11px;
+	}
+
+	.footer .about-link a::after,
+	.footer .services-link a::after,
+	.footer .quick-link a::after
+	{
+		height: 2px;
+	}
+
+	.footer .social-icons a
+	{
+	  	width:30px;
+	  	height:30px;
+	  	line-height:30px;
+	  	margin-left:4px;
+	  	font-size:14px;
+	}
+
+	/*----------------login-------------*/
+	.box
+	{
+	  	width: 360px;
+	  	padding: 50px;
+	  	margin: 10px 200px!important;
+	}
+
+	/*----------------our team--------------*/
+	.team
+	{
+		padding: 20px 15px;
+	}
+
+	.team .image
+	{
+		margin-right: 0px;
+		margin-top: 50px;
+	}
+
+	.team .image img
+	{
+		width: 100%;
+		height: 350px;
+	}
+
+	.team .image h1
+	{
+		font-size: 25px;
+	}
+
+	.team .image h4
+	{
+		font-size: 16px;
+	}
+
+	.team .image p
+	{
+		font-size: 16px;
+	}
+
+	.teamabout
+	{
+		margin: 10px 10px; 
+	}
+
+	.teamabout h1
+	{
+		font-size: 25px;
+		margin-top: 50px;
+	}
+
+	.teamabout p
+	{
+		font-size: 16px;
+		margin-top: 15px;
+	}
+
+	/*-----------aboutus---------------*/
+	.aboutus
+	{
+		padding: 20px 10px;
+	}
+
+	.aboutus img
+	{
+		width: 100%;
+		height: 350px;
+	}
+
+	.aboutus h1
+	{
+		font-size: 24px;
+		margin-top: 20px;
+	}
+
+	.aboutus h1::after
+	{
+		width: 200px;
+		margin: 15px auto 30px;
+	}
+
+	.aboutus p
+	{
+		font-size: 14px;
+		padding: 5px 5px;
+	}
+
+	.aboutus h2
+	{
+		font-size: 22px;
+		padding: 10px 13px;
+	}
+
+	.aboutus ul
+	{
+		padding: 0 15px;
+	}
+
+	.aboutus ul li
+	{
+		font-size: 14px;
+	}
+
+	/*---------------------------service1------------------------*/
+	.service1
+	{
+		padding: 10px 15px;
+	}
+
+	.service1 h1
+	{
+		font-size: 26px;
+		margin-top: 30px;
+	}
+
+	.service1 h1::after
+	{
+		width: 200px;
+		margin: 10px auto 10px;
+	}
+
+	.service1 .image
+	{
+		margin: 20px 5px;
+	}
+
+	.service1 .image img
+	{
+		width: 100%;
+		height: 250px;
+	}
+
+	.service1 .para
+	{
+		font-size: 15px;
+		margin: 20px 10px;
+	}
+
+
+}
+
+/*--------------------------------1200---------------------------*/
+
+@media only screen and (min-width: 1200px) and  (max-width: 1445px)
+{
+
+	#poster .container-fluid
+	{
+		padding: 9px!important;
+	}
+
+	.container-fluid img
+	{
+		height: 135px;
+		width: 135px;
+	}	
+	
+	.container-fluid .name
+	{
+		line-height: 18px;
+	}
+
+	.container-fluid .name .heading
+	{
+		font-size: 2.6rem!important;
+	}
+
+	.container-fluid .name .para
+	{
+		font-size: 16.5px;
+	}
+
+	.container-fluid .manager
+	{
+		line-height: 17px;
+	}
+
+
+	.container-fluid .manager .heading
+	{
+		font-size: 28px;
+	}
+
+	.container-fluid .manager .h4
+	{
+		font-size: 18px;
+	}
+
+	.container-fluid .manager .para
+	{
+		font-size: 16px;
+	 	padding: 0px 10px;
+	}
+
+
+	/*---------------navbar--------------------*/
+	.navbar .navbar-brand
+	{
+		margin-left: 5px;
+	}
+
+	.navbar-nav
+	{
+		margin-left: 230px;
+		text-align: center;
+	}
+
+	.navbar-nav .nav-item .nav-link
+	{
+		font-size: 16.5px;
+		padding: 5px 23px!important;
+
+	}
+
+	/*--------------slider---------------*/
+	.carousel-inner .carousel-item img
+	{
+		width: 100%;
+		height: 420px;
+	}
+
+	.carousel-caption h3
+	{
+		font-size: 28px;
+		margin: 5px 0px;
+		width: 100%;
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next
+	{
+		margin: 180px 0;
+	}
+
+	.carousel-indicators li
+	{
+		height: 19px!important;
+		width: 19px!important;
+	}
+
+	/*---------------------about----------------*/
+	.about
+	{
+		padding: 70px 90px;
+	}
+
+	.about-heading .heading
+	{
+		font-size: 33px;
+		margin-top: 10px;
+	}
+
+	.about-heading .heading::after
+	{
+		margin: 10px auto;
+	}
+
+	.about-heading .para
+	{
+		font-size: 15px;
+		text-align: justify;
+		padding: 15px 10px;
+		margin-top: 20px;
+	}
+
+	.read-more
+	{
+		margin-top: 32px;
+		margin-bottom: 50px!important;
+	}
+
+	.read-more a
+	{
+		font-size: 18px;
+		padding: 8px 25px;
+	}
+
+	.about .about-card
+	{
+		margin: 20px 5px;
+	}
+
+	.about .about-card img
+	{
+		height: 250px;
+	}
+
+	.about-card h4
+	{
+		padding: 20px 0;
+		padding-left: 10px;
+		font-size: 13px;
+	}
+
+	/*--------------feature------------*/
+	#feature .container-fluid
+	{
+		padding: 0 90px;
+		margin: 80px 0px;
+	}
+
+	.feature h4
+	{
+		font-weight: bolder;
+	}
+
+	.feature1 li,
+	.feature2 li
+	{
+		font-size: 17px;
+		margin-left: 20px;
+	}
+
+	/*--------------------services--------------*/
+	.service
+	{
+		padding: 120px 0;
+	}
+
+	.service h1
+	{
+		font-size: 3.3rem;
+	}
+
+	.service h2
+	{
+		font-size: 28px;
+		padding: 0 10px;
+	}
+
+	.service-area .services-area
+	{
+		padding: 10px 200px;
+	}
+
+	.services-area .heading
+	{
+		margin: 0 20px;
+		padding: 30px 30px;
+		transform: translateY(-70px);
+	}
+
+	.services-area .heading h3
+	{
+		font-size: 25px;
+	}
+
+	.services-area .heading h3::after
+	{
+		margin: 5px 10px;
+	}
+
+	.services-area .heading p
+	{
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+	.heading a
+	{
+		padding: 5px 20px!important;
+		font-size: 17px;
+	}
+
+	.services-area .service-detail
+	{
+		margin-left: 10px;
+		margin-top: 30px!important;
+	}
+
+	.services-area .service-detail li
+	{
+		font-size: 17px;
+		margin: 5px 7px;
+		padding: 5px 10px;
+	}
+
+	/*-------------------testimonial-----------------*/
+	.slideshow-container
+	{
+		padding: 30px 10px;
+	}
+
+	.slideshow-container a
+	{
+		padding: 0px 8px;
+	}
+
+	.slideshow-container h1
+	{
+		padding: 20px 5px;
+		font-size: 30px;
+		margin: 0px!important;
+	}
+
+	.slideshow-container .mySlides
+	{
+		padding: 0px 30px!important;
+		text-align: justify;
+		font-size: 13px;
+	}
+
+	.prev, .next
+	{
+		padding: 5px;
+	}
+
+	.dot
+	{
+		transform: translateY(-40px);
+		height: 11px;
+		width: 11px;
+	}
+
+	/*---------------------contactus------------------*/
+	.contact
+	{
+		padding: 120px 30px;
+	}
+
+	.contact h1
+	{
+		padding: 20px 20px;
+		font-size: 31px;
+		text-align: justify;
+	}
+
+	.contactus
+	{
+		padding: 20px 200px;
+	}
+
+	.contactus .heading
+	{
+		padding: 25px 20px;
+		margin: 10px 5px;
+		transform: translateY(-80px);
+	}
+
+	.contactus .heading h1
+	{
+		font-size: 27px;
+	}
+
+	.contactus .heading h1::after
+	{
+		margin: 5px 0px;
+	}
+
+	.contactus .heading h2
+	{
+		font-size: 21px;
+		margin-top: 15px;
+	}
+
+	.contactus .connect
+	{
+		margin-top: 15px;
+	}
+
+	.contactus .connect p
+	{
+		font-size: 13px;
+	}
+
+	.contactus .connect i
+	{
+		font-size: 14px;
+		padding: 0 4px;
+	}
+
+	/*-----------------------contact-form----------------*/
+	.form
+	{
+		padding: 30px 10px;
+		margin: 50px 0px;
+	}
+
+	.contact-title h2
+	{
+		font-size: 25px;
+	}
+
+	.contact-form
+	{
+		margin-top: 20px;
+	}
+
+	.contact-form .form-control
+	{
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+	.contact-form form .submit
+	{
+		font-size: 17px;
+		height: 40px;
+		margin-top: 15px;
+	}
+
+	/*---------------footer------------*/
+	.footer
+	{
+		padding: 50px;
+	}
+
+	.footer .about-link,
+	.footer .services-link,
+	.footer .quick-link,
+	.footer .social-link
+	{
+		padding: 5px 1px!important;
+	}
+
+	.footer .about-link h1,
+	.footer .services-link h1,
+	.footer .quick-link h1,
+	.footer .social-link h1
+	{
+		font-size: 23px;
+	}
+
+	.footer .about-link a,
+	.footer .services-link a,
+	.footer .quick-link a
+	{
+		font-size: 11px;
+	}
+
+	.footer .about-link a::after,
+	.footer .services-link a::after,
+	.footer .quick-link a::after
+	{
+		height: 2px;
+	}
+
+	.footer .social-icons a
+	{
+	  	width:30px;
+	  	height:30px;
+	  	line-height:30px;
+	  	margin-left:4px;
+	  	font-size:14px;
+	}
+
+	/*----------------login-------------*/
+	.box
+	{
+	  	width: 360px;
+	  	padding: 50px;
+	  	margin: 10px 200px!important;
+	}
+
+	/*----------------our team--------------*/
+	.team
+	{
+		padding: 20px 15px;
+	}
+
+	.team .image
+	{
+		margin-right: 0px;
+		margin-top: 50px;
+	}
+
+	.team .image img
+	{
+		width: 100%;
+		height: 350px;
+	}
+
+	.team .image h1
+	{
+		font-size: 25px;
+	}
+
+	.team .image h4
+	{
+		font-size: 16px;
+	}
+
+	.team .image p
+	{
+		font-size: 16px;
+	}
+
+	.teamabout
+	{
+		margin: 10px 10px; 
+	}
+
+	.teamabout h1
+	{
+		font-size: 25px;
+		margin-top: 50px;
+	}
+
+	.teamabout p
+	{
+		font-size: 16px;
+		margin-top: 15px;
+	}
+
+	/*-----------aboutus---------------*/
+	.aboutus
+	{
+		padding: 20px 10px;
+	}
+
+	.aboutus img
+	{
+		width: 100%;
+		height: 350px;
+	}
+
+	.aboutus h1
+	{
+		font-size: 24px;
+		margin-top: 20px;
+	}
+
+	.aboutus h1::after
+	{
+		width: 200px;
+		margin: 15px auto 30px;
+	}
+
+	.aboutus p
+	{
+		font-size: 14px;
+		padding: 5px 5px;
+	}
+
+	.aboutus h2
+	{
+		font-size: 22px;
+		padding: 10px 13px;
+	}
+
+	.aboutus ul
+	{
+		padding: 0 15px;
+	}
+
+	.aboutus ul li
+	{
+		font-size: 14px;
+	}
+
+	/*---------------------------service1------------------------*/
+	.service1
+	{
+		padding: 10px 15px;
+	}
+
+	.service1 h1
+	{
+		font-size: 26px;
+		margin-top: 30px;
+	}
+
+	.service1 h1::after
+	{
+		width: 200px;
+		margin: 10px auto 10px;
+	}
+
+	.service1 .image
+	{
+		margin: 20px 5px;
+	}
+
+	.service1 .image img
+	{
+		width: 100%;
+		height: 250px;
+	}
+
+	.service1 .para
+	{
+		font-size: 15px;
+		margin: 20px 10px;
+	}
+
+
+}

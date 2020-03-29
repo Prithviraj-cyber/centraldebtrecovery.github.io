@@ -1,0 +1,241 @@
+<?php
+session_start();
+if(!isset($_SESSION['user'])){
+    header('location:login.php');
+}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>CENTRAL DEBT RECOVERY</title> 
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo|Poppins|Roboto|Rubik&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Righteous&display=swap" rel="stylesheet">
+
+	<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+<style>
+
+	.notepad
+	{
+		background-color: #fff;
+	}
+
+	.img img
+	{
+		margin-top: 10px;
+		height: 160px;
+		width: 160px;
+	}
+
+	.lh h6
+	{
+		font-family: sans-serif;
+		font-size: 25px;
+		font-weight: bolder;
+		color: #000;
+		text-align: right;
+	}
+
+	.lh h1
+	{
+		font-size: 5.4rem;
+		font-family: 'Anton', sans-serif;
+		letter-spacing: 2px;
+		margin-left: 8px;
+		color: #009933;
+	}
+
+	.lh p
+	{
+		font-size: 2.5rem;
+		font-family: 'Righteous', cursive;
+		background-color: #008ae6;
+		border-radius: 20px;
+		color: #fff;
+		text-align: center;
+		padding: 20px 2px;
+		margin: -5px 0;
+	}
+
+	hr{
+		
+		background-color: #000;
+	}
+
+	.letterpad
+	{
+		border-bottom: 10px solid #008ae6;
+	}
+
+	.addss
+	{
+		padding: 15px;
+		background-color: #008ae6;
+	}
+
+	i
+	{
+		margin-left: 50px;
+		font-family: sans-serif;
+	}
+
+	.addss p
+	{
+		margin: 1px 5px;
+		font-family: sans-serif;
+		font-weight: bolder;
+		text-align: left;
+		font-size: 32px;
+		color: #fff;
+	}
+
+	.note
+	{
+		padding: 20px 80px;
+	}
+
+	label{
+		font-family: 'Arimo', sans-serif;
+		font-size: 18px;
+		color: #0000ff;
+	}
+
+	.row
+	{
+		justify-content: space-between;
+		padding: 10px 15px;
+	}
+	
+	.letterarea .writting
+	{
+		width: 100%;
+		height: 45vh;
+		padding: 20px 0;
+	}
+
+	.ref, .writting
+	{
+		background: transparent;
+		border: none;
+	}
+
+
+</style>
+
+</head>
+<body>
+
+	<main class="main">
+<!--------------------navbar----------------------->
+		<section id="navbar">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  	<a class="navbar-brand" href="index.html"><i class="fa fa-user-secret" aria-hidden="true"></i> CDR</a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			   		<span class="navbar-toggler-icon"></span>
+		 		</button>
+			  	<div class="collapse navbar-collapse" id="navbarNav">
+			   		<ul class="navbar-nav">
+			   			<li class="nav-item">
+     		   				<a class="nav-link active" href="index.html">Home</a>
+     		 			</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link" href="features.html">Features</a>
+					    </li>
+					    <li class="nav-item">
+					       	<a class="nav-link" href="services.html">Services</a>
+					    </li>
+					    <li class="nav-item">
+					       	<a class="nav-link" href="team.html">Our Team</a>
+					    </li>
+					     <li class="nav-item">
+					       	<a class="nav-link button" href="logout.php">Logout</a>
+					    </li>
+					     <li class="nav-item">
+					       	<button class="nav-link" onclick="myfun()">print</button>
+					    </li>
+			    	</ul>
+			  	</div>
+			</nav>
+		</section>
+
+<!----------------------------------notepad----------------------------->
+		<section class="notepad">
+			<hr>
+			<div class="letterpad">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="img">
+							<img src="img/logo.png">
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="lh">
+							<h6>GSTIN-09BRCPS1132BZ8</h6>
+							<h1>CENTRAL DEBT RECOVERY</h1>
+							<P>An Authorised Agency For loan Recovery enforcement, seizure and detective services</P>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="note">
+			<form class="formletter">
+				<div class="row">
+					<div class="r">
+						<label>Ref...</label>
+						<input type="text" class="ref" >
+					</div>
+					<div class="d">
+						<label>Date</label>
+						<input type="text" class="ref">
+					</div>
+				</div>
+				<div class="letterarea">
+					<textarea class="writting" id="mytextarea" ></textarea>
+				</div>
+			</form>
+
+		</section>
+
+		<section class="notepadfooter">
+			<div class="addss">
+				<p>ADDRESS :</p>
+				<p>
+					SA.3/186.KHA 3A, VISHNUPURAM COLONY, DAULATPUR POKHARA, CHHOTA LALPUR, PANDEYPUR, VARANASI (UP), INDIA-221002
+				</p>
+				<p>*******************************************************************************</p>
+				<p><i> Mobile no :</i> 9415787696 <i > E-mail :</i> cdr21.india@gmail.com</p>
+			</div>
+		</section>
+
+
+<!-----------------print-------------->
+		<script type="text/javascript">
+			function myfun(){
+				window.print();
+			}
+		</script>
+
+<!--------------------tinymce------------>
+	<!-- <script type="text/javascript">
+		tinymce.init(
+		{
+			selector: '#mytextarea'
+		});
+	</script> -->
+
+	</main>	
+    
+</body>
+</html>
